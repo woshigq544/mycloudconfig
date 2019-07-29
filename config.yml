@@ -1,0 +1,10 @@
+Spring: 
+    profiles: dev #开发环境
+    application: 
+        name: woniucloud-provider-dev
+
+---
+Spring: 
+    profiles: test #测试环境
+    application: 
+        name: woniucloud-provider-test 
